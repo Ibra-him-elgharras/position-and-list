@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body div{
+    width: 200px;
+    height: 150px;
+}
+
+.green{
+    background: green;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 500;
+}
+
+.red{
+    background: red;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 1000;
+}
+
+.blue{
+    background: blue;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 300;
+}
+
+.black{
+    background: black;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 0;
+}
+
+.exer-1{
+    margin-bottom: 15px;
+    background: yellow;
+}
+
+.ligne-1{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    border: 3px solid black;
+    width: 400px;
+}
+
+.ligne-2{
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    border: 3px solid black;
+    width: 400px;
+}
+
+
+.exe-2{
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: 300px;
+    padding: 40px 20px;
+    border-top: 3px solid red;
+    border-right: 3px solid blue;
+    border-bottom: 3px solid red;
+    border-left: 3px solid blue;
+}
+
+.exe-2 .bottom-left, .bottom-right, .top-left, .top-right{
+    color: #fff;
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.top-left{
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    border-right: 3px solid red;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    border-right: 3px solid red;
+}
+
+.top-right{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-left: 3px solid red;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    border-left: 3px solid red;
+}
+
+body .parent{
+    width: 400px;
+    margin: 30% auto;
+    list-style: none;
+}
+
+.parent .first, .second, .third{
+    margin-bottom: 25px;
+    padding: 10px 5px 5px 10px;
+    background-color: #9b949443;
+}
+
+.parent .first ol{
+    padding: 10px 10px 10px 30px;
+}
+
+.parent .second ol{
+    padding: 10px 10px 10px 30px;
+}
+
+.parent .third ul{
+    padding: 10px 10px 10px 30px;
+}
+
+.parent .first ol li{
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.parent .second ol li{
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.parent .third ul li{
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+
+
+
